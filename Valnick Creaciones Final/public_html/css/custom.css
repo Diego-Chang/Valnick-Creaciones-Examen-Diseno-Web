@@ -1,0 +1,150 @@
+@font-face {
+    font-family: "Bradley-Hand-Regular";
+    font-weight: normal;
+    font-style: normal;
+    src: url(BRADHITC.TTF)
+}
+* {
+    font-family: "Bradley-Hand-Regular";
+}
+.imagen-header {
+  width: auto !important;
+  height: 125px !important;
+}
+.display-1 {
+    font-size:3rem !important;
+}
+.padd-img {
+    padding-bottom: 150px;
+}
+.padd-nosotros {
+    padding-top: 100px;
+    padding-bottom: 300px;
+}
+.padd-info {
+    margin-right: 100px !important;
+}
+.img-custom {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    max-width: 350px !important;
+    max-height: 300px !important;
+    vertical-align: middle;
+}
+.img-custom-2 {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    max-width: 300 !important;
+    max-height: 300px !important;
+    vertical-align: middle;
+}
+.btn-primary {
+    color: #fff !important;
+    background-color: #006600 !important;
+    border-color: #fff !important;
+}
+.bg-dark {
+    background-color: black !important;
+}
+.border-primary {
+    border-color: #006600 !important;
+}
+.bg-light {
+    background-color: #eaffea !important;
+}
+.container {
+    padding-top: 24px
+}
+.copy-r {
+    padding-top: 0px !important;
+}
+.pNormal{
+    text-align: center;
+    padding: 10px;
+    width: 95%;
+    margin: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+a {
+    color: #006600
+}
+a:hover {
+    color: #000;
+}
+.important-text {
+    color: #006600;
+}
+.padding-bottom {
+    padding-bottom: 10px;
+}
+.galeria {
+  display: flex !important;
+  justify-content: center !important;     /* Centra horizontalmente */
+  align-items: center !important;         /* Centra verticalmente */
+  min-height: 100vh !important;           /* Ocupa toda la altura de la pantalla */
+  margin: 0 !important;                   /* Evita márgenes por defecto del body */
+}
+body {
+    font-size: 1.3rem !important;
+}
+h1, h2, h3, h4, h5 {
+    font-family: "Bradley-Hand-Regular";
+}
+.img-fluid-normal{
+    max-width:100%;
+    height:auto
+}
+.img-fluid{
+    max-width:100%;
+    height: auto !important;
+}
+.img-fluid-2 {
+    max-width:100%;
+    height: 1200px !important;
+}
+.navbar-nav {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1) !important;
+}
+.ps-3 {
+    padding-bottom: 10px !important;
+}
+.less-rmail{
+    --bs-gutter-x: 0rem !important;
+}
+.img-position-1{
+    margin-bottom: 50px;
+}
+.img-position-2{
+    margin-top: 50px;
+}
+.margin-null{
+    margin-top: 0px !important;
+}
+
+
+@media (max-width: 768px) {
+    #lema {
+        margin-top: 100px !important;
+    }
+    .img-custom-2 {
+        max-height: 150px !important;
+        max-width: 150px !important;
+        
+    }
+    .less-padd {
+        padding-top: 1rem !important;
+    }
+    .padd-img {
+        padding-bottom: 10px !important;
+    }
+    .less-rem {
+        --bs-gutter-y: 0rem !important;
+    }
+    .lema-text {
+        font-size: 2rem !important;
+    }
+}
